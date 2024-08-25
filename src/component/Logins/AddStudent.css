@@ -1,0 +1,160 @@
+  .overall-cona {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+     width: 900px; 
+    background: rgba(247, 247, 247, 1);
+    border-radius: 44px; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 30px; 
+  }
+ main{
+  background: rgba(247, 247, 247, 1);
+  border-radius: 24px; 
+  /* padding: 0px; */
+  width: 900px; 
+ }
+  
+  .top{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    /* margin-right: 58px; */
+  }
+  .add-student-form {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    /* margin-top: 300px; */
+    
+  }
+  .changeimage{
+    color:  rgba(53, 194, 193, 1);
+  }
+  
+  .required {
+    /* display: flex; */
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: 1px solid rgba(232, 236, 244, 1);
+    background: rgba(249, 250, 251, 1);
+    border-radius: 8px;
+    padding: 8px 12px;
+  }
+  
+  .asterisk {
+    color: red;
+    margin-left: 2px;
+  }
+  
+  .input-field {
+  border: none;
+    
+    background-color: transparent;
+    margin-top: 5px;
+  }
+  .input-field:focus {
+    box-shadow: none; 
+    border: none;
+  }
+  
+  /* Apply grid layout directly to the elements */
+.name-inputs,
+.student-details,
+.phone-email,
+.address-info,
+.guardian-contact,
+.guardian-address-relationship,
+.account-security {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 40px; /* Adjust the gap as needed */
+  margin: 20px 0;
+  
+}
+
+  
+  .create-student-button {
+    width: 100%;
+    padding: 20px;
+    background: rgba(53, 194, 193, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .create-student-button:hover {
+    background-color: rgba(53, 194, 193, 1);
+  }
+  
+  .input-field:focus {
+    box-shadow: none; 
+    border: none;
+  }
+  input:focus {
+    outline: none; /* Removes the default focus outline */
+    border: none; 
+     background-color: none;
+  }
+  .overlay{
+    margin: 100px;
+    margin-top: 10px;
+  }
+
+  /* FormDataDisplay.css */
+/* FormDataDisplay.css */
+.form-data-display {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.formsection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.formlabel {
+  font-weight: bold;
+  flex: 1;
+}
+
+.formvalue {
+  flex: 1;
+  text-align: right;
+  color: rgb(19, 18, 18);
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.formform{
+ background: rgba(247, 248, 249, 1);
+  margin: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.create-confirm-button {
+  width: 100%;
+  padding: 20px;
+  background: rgba(53, 194, 193, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+
+  

@@ -1,0 +1,24 @@
+.attendan-container{
+    border: 0.5px solid rgba(179, 179, 179, 1);
+    background: rgba(236, 241, 255, 1);
+    padding: 12px;
+    border-radius: 12px;
+    width: 450px;
+}
+.attendanc-container{
+    background: rgba(250, 255, 236, 1);
+    width: 450px;
+    border: 0.5px solid rgba(179, 179, 179, 1);
+    padding: 12px;
+    border-radius: 12px;
+}
+.dent{
+    padding-left: 10px;
+}
+.card{
+    background: rgba(255, 255, 255, 1);
+
+}
+.none{
+    height: 1100px;
+}

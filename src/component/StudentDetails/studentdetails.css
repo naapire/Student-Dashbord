@@ -1,0 +1,21 @@
+
+
+.bray{
+    padding: 4px 60px 4px 1px;
+    border-radius: 8px;  
+    background: rgba(255, 255, 255, 1);
+
+    border: 1px solid rgba(229, 231, 233, 1);
+}
+.gren{
+    display: flex;
+  justify-content: start;
+  background: rgba(255, 255, 255, 1);
+
+padding: 5.39px 28.78px ;
+padding-left: 1px;
+/* padding-right: 50px; */
+border-radius: 8.61px;
+gap: 8px;
+width: 180px;
+}
